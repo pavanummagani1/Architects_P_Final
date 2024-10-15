@@ -16,7 +16,13 @@ body{
     width: 100%;
     position: fixed;
     z-index: 1;
-
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+#headerSection span:hover{
+    background-color: #9b9494ce;
 }
 #headerItems{
     display: inline-block;
@@ -26,7 +32,7 @@ body{
 #title{
     margin-left: 12px;
 }
-#headerItems>span{
+#headerItems>a{
     margin-right: 16px;
 }
 #bannerSection{
@@ -52,7 +58,7 @@ main{
 }
 
 /*houses*/
-.houses{
+#houses{
     margin: 30px 30px 50px 30px;
 
 }
